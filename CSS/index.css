@@ -49,3 +49,28 @@ table {
 html {
     font-size: 62.5%;
   }
+
+  header{
+	  font-size: 10em;
+	  width: 100%;
+	  text-align: center;
+	  background-color: #27AE60;
+  }
+  header h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #23293B;
+	
+  }
+  header nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  header a {
+	margin: 5% 5% 5% 0% ;
+	color: #23293B;
+	font-size: 1.8rem;
+	text-decoration: none;
+  }
