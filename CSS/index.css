@@ -50,7 +50,7 @@ html {
     font-size: 62.5%;
   }
   .container {
-	max-width: 800px;
+	max-width: 900px;
 	width: 100%;
 	margin: 0 auto;
   }
@@ -103,11 +103,28 @@ html {
 	  height: auto;
 	  
   }
-  h3{
+ 
+ .content h3{
 	  margin-bottom: 2%;
 	  text-align: center;
 	  font-size: 1.5em;
   }
+
+.join{
+	  display: flex;
+	  justify-content: center;
+
+  }
+  .join-text{
+	  width:50%;
+  }
+
+  .volunteer-pic{
+	  width:47%;
+  }
+
+ 
+  
 
 
 
