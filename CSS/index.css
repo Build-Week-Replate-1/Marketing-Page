@@ -159,6 +159,7 @@ header a {
   text-decoration: none;
 }
 .intro {
+  display: block;
   background-color: #CA9B80;
 }
 .intro h2 {
@@ -168,11 +169,16 @@ header a {
   font-size: 3em;
   margin: 3% 0%;
 }
-.roles {
-  margin: 10% 0%;
+.roles h2 {
+  font-size: 5em;
+}
+.roles p {
+  font-size: 3em;
+  margin: 3% 0%;
 }
 .row {
   display: flex;
+  margin: 5% 0%;
 }
 .column {
   flex: 33.33%;
@@ -183,17 +189,31 @@ img {
   height: auto;
 }
 .content h3 {
-  margin-bottom: 2%;
+  margin: 5% 0%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 .join {
   display: flex;
   justify-content: center;
 }
-.join-text {
-  width: 50%;
+.join .join-text {
+  width: 70%;
 }
-.volunteer-pic {
-  width: 47%;
+.join .join-text h2 {
+  font-size: 5em;
+}
+.join .join-text p {
+  padding-top: 2%;
+  font-size: 1.5em;
+}
+.join .join-text .btn {
+  margin: 10% 0%;
+  font-size: 4rem;
+  background-color: #27AE60;
+  height: auto;
+  width: 40%;
+}
+.join .nature {
+  width: 50%;
 }
