@@ -27,21 +27,23 @@ header a {
 
 .intro{
   display:flex;
+div{
+  flex-basis: 50%;
 }
-.intro h2{
+h2{
   font-size: 5em;
-  
-
 }
-.intro p{
+p{
   font-size: 3em;
-  margin:3% 0%;
- 
- 
 }
-.intro img{
-  float:right;
+.Mount{
+max-width: 100%;
+border-radius: 2%;
 }
+  
+}
+
+
 
 
 
@@ -64,38 +66,32 @@ header a {
 
 
 // Content Section
-.row {
+.content{
+
+  .row {
   display: flex;
   margin:5% 0%;
-}
-
-.column {
+  .column {
   flex: 33.33%;
   padding: 1%;
-}
-
-img{
-    width: 100%;
+    img{
+    max-width: 100%;
     height: auto;
     
 }
-
-.content h3{
-    margin: 5% 0%;
+h3{
+  margin: 5% 0%;
     text-align: center;
     font-size: 3em;
 }
-
-
-
-
-
-
+}
+}
+}
 
 
 .join{
     display: flex;
-    justify-content: center;
+  
 
   .join-text{
     width:70%;
@@ -113,13 +109,16 @@ img{
       background-color:#27AE60;
       color: white;
       height: auto;
-      width: 40%;
+      width: 60%;
       border-radius: 10%;
       text-align: center;
     }
   }
-  .nature{
-    width:50%;
+  .leaf{
+    max-width:70%;
+    height: auto;
+    float: right;
+    border-radius: 2%;
   }
 }
 

@@ -134,6 +134,9 @@ html {
   width: 100%;
   margin: 0 auto;
 }
+html {
+  background-color: wheat;
+}
 header {
   font-size: 10em;
   width: 100%;
@@ -161,15 +164,18 @@ header a {
 .intro {
   display: flex;
 }
+.intro div {
+  flex-basis: 50%;
+}
 .intro h2 {
   font-size: 5em;
 }
 .intro p {
   font-size: 3em;
-  margin: 3% 0%;
 }
-.intro img {
-  float: right;
+.intro .Mount {
+  max-width: 100%;
+  border-radius: 2%;
 }
 .roles h2 {
   font-size: 5em;
@@ -178,26 +184,25 @@ header a {
   font-size: 3em;
   margin: 3% 0%;
 }
-.row {
+.content .row {
   display: flex;
   margin: 5% 0%;
 }
-.column {
+.content .row .column {
   flex: 33.33%;
   padding: 1%;
 }
-img {
-  width: 100%;
+.content .row .column img {
+  max-width: 100%;
   height: auto;
 }
-.content h3 {
+.content .row .column h3 {
   margin: 5% 0%;
   text-align: center;
   font-size: 3em;
 }
 .join {
   display: flex;
-  justify-content: center;
 }
 .join .join-text {
   width: 70%;
@@ -216,12 +221,15 @@ img {
   background-color: #27AE60;
   color: white;
   height: auto;
-  width: 40%;
+  width: 60%;
   border-radius: 10%;
   text-align: center;
 }
-.join .nature {
-  width: 50%;
+.join .leaf {
+  max-width: 70%;
+  height: auto;
+  float: right;
+  border-radius: 2%;
 }
 footer {
   width: 100%;
