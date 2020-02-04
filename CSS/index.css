@@ -129,6 +129,9 @@ table {
 html {
   font-size: 62.5%;
 }
+* {
+  box-sizing: border-box;
+}
 .container {
   max-width: 1000px;
   width: 100%;
@@ -173,7 +176,7 @@ header a {
 .intro p {
   font-size: 3em;
 }
-.intro .Mount {
+.intro .half {
   max-width: 100%;
   border-radius: 2%;
 }
@@ -195,6 +198,9 @@ header a {
 .content .row .column img {
   max-width: 100%;
   height: auto;
+}
+.content .row .column img .heart {
+  height: 50px;
 }
 .content .row .column h3 {
   margin: 5% 0%;
