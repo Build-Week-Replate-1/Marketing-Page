@@ -150,7 +150,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5% 4%;
+  margin: 5%;
 }
 header a {
   margin: 0% 6%;
@@ -159,8 +159,7 @@ header a {
   text-decoration: none;
 }
 .intro {
-  display: block;
-  background-color: #CA9B80;
+  display: flex;
 }
 .intro h2 {
   font-size: 5em;
@@ -168,6 +167,9 @@ header a {
 .intro p {
   font-size: 3em;
   margin: 3% 0%;
+}
+.intro img {
+  float: right;
 }
 .roles h2 {
   font-size: 5em;
@@ -209,11 +211,23 @@ img {
 }
 .join .join-text .btn {
   margin: 10% 0%;
+  padding: 3%;
   font-size: 4rem;
   background-color: #27AE60;
+  color: white;
   height: auto;
   width: 40%;
+  border-radius: 10%;
+  text-align: center;
 }
 .join .nature {
   width: 50%;
+}
+footer {
+  width: 100%;
+  margin: 10% 0%;
+  background-color: #27AE60;
+  color: white;
+  font-size: 3em;
+  text-align: center;
 }
