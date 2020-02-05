@@ -17,6 +17,10 @@ h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     margin-bottom: 10px;
+    @media @phone{
+      display:flex;
+      justify-content: center;
+    }
   }
   
   // Paragraphs
@@ -24,6 +28,9 @@ h2 {
     font-family: 'Martel Sans', sans-serif;
     line-height: 1.5;
     font-size: 1.5em;
+    @media @phone{
+      width:100%;
+    }
     
   }
 // Images  
@@ -33,5 +40,6 @@ img {
   width: 45%;
   @media @phone{
     width:100%;
+    padding:2%;
   }
 }
