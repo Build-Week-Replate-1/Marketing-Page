@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html,
 body,
 div,
@@ -129,119 +125,83 @@ table {
 html {
   font-size: 62.5%;
 }
-* {
-  box-sizing: border-box;
-}
-.container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
-html {
-  background-color: wheat;
-}
-header {
-  font-size: 10em;
-  width: 100%;
-  text-align: center;
-  background-color: #27AE60;
-}
-header h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #F2F2F2;
-}
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5%;
-}
-header a {
-  margin: 0% 6%;
-  color: #F2F2F2;
-  font-size: 3rem;
-  text-decoration: none;
-}
-.intro {
-  display: flex;
-}
-.intro div {
-  flex-basis: 50%;
-}
-.intro h2 {
-  font-size: 5em;
-}
-.intro p {
-  font-size: 3em;
-}
-.intro .half {
+img {
   max-width: 100%;
-  border-radius: 2%;
-}
-.roles h2 {
-  font-size: 5em;
-}
-.roles p {
-  font-size: 3em;
-  margin: 3% 0%;
-}
-.content .row {
-  display: flex;
-  margin: 5% 0%;
-}
-.content .row .column {
-  flex: 33.33%;
-  padding: 1%;
-}
-.content .row .column img {
-  max-width: 100%;
-  height: auto;
-}
-.content .row .column img .heart {
-  height: 50px;
-}
-.content .row .column h3 {
-  margin: 5% 0%;
-  text-align: center;
-  font-size: 3em;
-}
-.join {
-  display: flex;
-}
-.join .join-text {
-  width: 70%;
-}
-.join .join-text h2 {
-  font-size: 5em;
-}
-.join .join-text p {
-  padding-top: 2%;
-  font-size: 1.5em;
-}
-.join .join-text .btn {
-  margin: 10% 0%;
-  padding: 3%;
-  font-size: 4rem;
-  background-color: #27AE60;
-  color: white;
-  height: auto;
-  width: 60%;
-  border-radius: 10%;
-  text-align: center;
-}
-.join .leaf {
-  max-width: 70%;
-  height: auto;
-  float: right;
-  border-radius: 2%;
+  width: 35%;
 }
 footer {
+  background-color: darkgreen;
   width: 100%;
-  margin: 10% 0%;
-  background-color: #27AE60;
-  color: white;
-  font-size: 3em;
+  height: auto;
+  padding: 1em 15em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+address {
+  color: #01FF70;
+}
+copyright {
+  color: #01FF70;
+}
+h3 {
+  color: #01FF70;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.social_media {
+  display: flex;
+}
+.social_media .fa {
+  border-radius: 50px;
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
   text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.social_media .fa:hover {
+  opacity: 0.7;
+}
+.social_media .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.social_media .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.social_media .fa-instagram {
+  background: #125688;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 980px;
+  margin: 5em auto 3.5em;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 5px #777777;
+}
+.container section {
+  display: flex;
+  flex-direction: row;
+  margin: 3.5em 0;
+}
+.container section:nth-child(2) {
+  align-items: flex-end;
+  text-align: right;
+}
+.container section:nth-child(2) p:nth-child(2) {
+  padding-left: 30%;
+  padding-right: 0;
+}
+.container section p {
+  padding-right: 30%;
+  margin: 0.5em 0;
+  font-weight: 600;
 }
