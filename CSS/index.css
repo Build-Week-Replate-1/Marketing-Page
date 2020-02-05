@@ -1,3 +1,7 @@
+.header-style {
+  font-size: 2.5em;
+  color: #004C00;
+}
 html,
 body,
 div,
@@ -125,9 +129,69 @@ table {
 html {
   font-size: 62.5%;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2 {
+  color: #004C00;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+p {
+  font-family: 'Martel Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
 img {
   max-width: 100%;
   width: 35%;
+}
+h2 {
+  color: #004C00;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  margin-bottom: 10px;
+  background-color: darkgreen;
+}
+p {
+  font-family: 'Martel Sans', sans-serif;
+  line-height: 1.5;
+}
+header {
+  background-color: darkgreen;
+  width: 100%;
+  height: auto;
+  padding: 1em 15em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  color: #004C00;
+  margin: 1%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 1%;
+}
+header a {
+  font-size: 2.5em;
+  color: #004C00;
+  text-decoration: none;
+}
+header a:hover {
+  color: black;
+  background: #7FDBFF;
 }
 footer {
   background-color: darkgreen;
@@ -139,13 +203,13 @@ footer {
   flex-direction: column;
 }
 address {
-  color: #01FF70;
+  color: white;
 }
 copyright {
-  color: #01FF70;
+  color: white;
 }
 h3 {
-  color: #01FF70;
+  color: white;
   font-size: 2.5em;
   margin-bottom: 10px;
 }
@@ -180,7 +244,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 980px;
+  max-width: 1000px;
   margin: 5em auto 3.5em;
   background: rgba(255, 255, 255, 0.9);
   padding: 2em;
@@ -204,4 +268,25 @@ h3 {
   padding-right: 30%;
   margin: 0.5em 0;
   font-weight: 600;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bebas Neue Regular'), local('BebasNeue-Regular'), url(https://fonts.gstatic.com/s/bebasneue/v1/JTUSjIg69CK48gW7PXoo9Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Martel Sans Regular'), local('MartelSans-Regular'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GsssGi7VdzDgKjM-4d8hjYx-s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Martel Sans SemiBold'), local('MartelSans-SemiBold'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GxssGi7VdzDgKjM-4d8hAH4_uAH00.ttf) format('truetype');
 }
