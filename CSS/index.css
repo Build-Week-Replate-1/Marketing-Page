@@ -197,7 +197,6 @@ header a {
 }
 @media (max-width:500px) {
   header a {
-    width: 100%;
     margin: 10%;
   }
 }
