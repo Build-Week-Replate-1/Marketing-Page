@@ -303,6 +303,15 @@ h3 {
     margin-left: 15%;
   }
 }
+.card {
+  color: red;
+}
+.pic-test {
+  display: inline;
+}
+.row {
+  margin: 20%;
+}
 @font-face {
   font-family: 'Bebas Neue';
   font-style: normal;
