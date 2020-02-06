@@ -279,7 +279,6 @@ h3 {
 }
 @media (max-width:500px) {
   .container section {
-    display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -288,19 +287,30 @@ h3 {
   align-items: flex-end;
   text-align: right;
 }
-.container section:nth-child(2) p:nth-child(2) {
-  padding-left: 30%;
-  padding-right: 0;
+@media (max-width:500px) {
+  .container section:nth-child(2) {
+    flex-direction: column;
+  }
 }
-.container section p {
+.container section:nth-child(2) p {
   padding-right: 30%;
   margin: 0.5em 0;
   font-weight: 600;
 }
 @media (max-width:500px) {
-  .container section p {
+  .container section:nth-child(2) p {
     text-align: center;
-    margin-left: 15%;
+    margin-left: 0%;
+    padding: 0;
+  }
+}
+.container section:nth-child(2) p:nth-child(2) {
+  padding-left: 30%;
+  padding-right: 0;
+}
+@media (max-width:500px) {
+  .container section:nth-child(2) p:nth-child(2) {
+    padding: 0;
   }
 }
 .card {
