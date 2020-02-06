@@ -148,7 +148,7 @@ html h2 {
   color: #004C00;
   font-family: "Bebas Neue", cursive;
   font-size: 3em;
-  margin-bottom: 10px;
+  margin-bottom: 4%;
 }
 @media (max-width:500px) {
   html h2 {
@@ -334,13 +334,18 @@ footer .social_media .fa-instagram {
     display: block;
   }
 }
-.chris .chris-pic {
-  height: auto;
-  width: auto;
-}
 .chris h2 {
   text-align: center;
   padding-top: 2%;
+}
+.chris .git-div {
+  display: flex;
+  justify-content: center;
+}
+.chris a {
+  background: #211f1f;
+  color: white;
+  border-radius: 50%;
 }
 .column {
   float: left;
@@ -371,10 +376,18 @@ footer .social_media .fa-instagram {
   text-align: center;
   padding-top: 2%;
 }
+.column .container-b .git-div {
+  display: flex;
+  justify-content: center;
+}
 .column .container-b a {
   background: #211f1f;
   color: white;
-  border-radius: 50%;
+  border-radius: 70%;
+}
+.column .container-b p {
+  display: flex;
+  justify-content: center;
 }
 @font-face {
   font-family: 'Bebas Neue';
