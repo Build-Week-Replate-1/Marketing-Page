@@ -192,6 +192,12 @@ header h1 {
   color: white;
   margin: 1%;
 }
+@media (max-width:500px) {
+  header h1 {
+    width: 100%;
+    font-size: 3em;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-around;
@@ -330,10 +336,8 @@ footer .social_media .fa-instagram {
 }
 @media (max-width:500px) {
   .chris {
+    max-width: 90%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
   }
 }
 .chris .chris-pic {
@@ -341,6 +345,12 @@ footer .social_media .fa-instagram {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+@media (max-width:500px) {
+  .chris .chris-pic {
+    width: auto;
+    height: auto;
+  }
 }
 .chris h2 {
   text-align: center;
