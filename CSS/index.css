@@ -129,42 +129,42 @@ table {
 html {
   font-size: 62.5%;
 }
-* {
+html * {
   box-sizing: border-box;
 }
-body {
+html body {
   background: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
-h2 {
+html h2 {
   color: #004C00;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 3em;
   margin-bottom: 10px;
 }
 @media (max-width:500px) {
-  h2 {
+  html h2 {
     display: flex;
     justify-content: center;
   }
 }
-p {
-  font-family: 'Martel Sans', sans-serif;
+html p {
+  font-family: "Martel Sans", sans-serif;
   line-height: 1.5;
   font-size: 1.5em;
 }
 @media (max-width:500px) {
-  p {
+  html p {
     width: 100%;
   }
 }
-img {
+html img {
   max-width: 100%;
   width: 45%;
 }
 @media (max-width:500px) {
-  img {
+  html img {
     width: 100%;
     padding: 2%;
   }
@@ -218,26 +218,26 @@ footer {
     align-items: center;
   }
 }
-address {
+footer address {
   color: white;
 }
-copyright {
+footer copyright {
   color: white;
 }
-h3 {
+footer h3 {
   color: white;
   font-size: 2.5em;
   margin-bottom: 10px;
 }
 @media (max-width:500px) {
-  h3 {
+  footer h3 {
     font-size: 5em;
   }
 }
-.social_media {
+footer .social_media {
   display: flex;
 }
-.social_media .fa {
+footer .social_media .fa {
   border-radius: 50px;
   padding: 20px;
   font-size: 30px;
@@ -246,18 +246,18 @@ h3 {
   text-decoration: none;
   margin: 5px 2px;
 }
-.social_media .fa:hover {
+footer .social_media .fa:hover {
   opacity: 0.7;
 }
-.social_media .fa-facebook {
-  background: #3B5998;
+footer .social_media .fa-facebook {
+  background: #3b5998;
   color: white;
 }
-.social_media .fa-twitter {
-  background: #55ACEE;
+footer .social_media .fa-twitter {
+  background: #55acee;
   color: white;
 }
-.social_media .fa-instagram {
+footer .social_media .fa-instagram {
   background: #125688;
   color: white;
 }
@@ -316,11 +316,33 @@ h3 {
 .card {
   color: red;
 }
-.pic-test {
-  display: inline;
+.chris {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 5em auto 3.5em;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 5px #777777;
 }
-.row {
-  margin: 20%;
+.container-b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 5em auto 3.5em;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 5px #777777;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 @font-face {
   font-family: 'Bebas Neue';
