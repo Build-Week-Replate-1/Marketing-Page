@@ -1,34 +1,39 @@
-.card {
-  color: red;
-}
 .chris {
   max-width: 45%;
-  margin: 5em auto 3.5em;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 2em;
-  border-radius: 4px;
-  box-shadow: 0px 0px 10px 5px #777777;
+  .container-style();
   @media @phone {
     width: 100%;
     display: block;
-    // float: left;
   }
 }
 
-.container-b {
-  margin: 5em auto 3.5em;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 2em;
-  border-radius: 4px;
-  box-shadow: 0px 0px 10px 5px #777777;
-}
 .column {
   float: left;
   width: 25%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 0 1.5%;
   @media @phone {
     width: 100%;
     display: block;
+    padding: 0 5%;
+  }
+  .container-b {
+    .container-style();
+
+    img {
+      justify-content: center;
+    }
+
+    h2 {
+      color: red;
+    }
+    p {
+      color: purple;
+    }
+    a {
+      background: #211f1f;
+      color: white;
+      border-radius: 50%;
+    }
   }
 }
